@@ -15,7 +15,7 @@ jobs:
         with:
           host: ${{secrets.IP}}
           username: ${{secrets.USERNAME}}
-          key: ${{secrets.SSH.KEY}}
+          key: ${{secrets.SSH_KEY}}
 
           script: |
             cd /home/ubuntu/6weeks_ravina_PYTHON_backend
