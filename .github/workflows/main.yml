@@ -18,7 +18,7 @@ jobs:
           key: ${{secrets.SSH.KEY}}
 
           script: |
-            cd /home/ubuntu/python_backend
+            cd /home/ubuntu/6weeks_ravina_PYTHON_backend
             git pull origin main
             source venv/bin/activate
             pip install -r requirements.txt
