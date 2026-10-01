@@ -8,12 +8,12 @@ pipeline{
         }
         stage('docker build'){
             steps{
-                sh 'docker build -t ravinaBackend .'
+                sh 'docker build -t ravinabackend .'
             }
         }
         stage('docker Run'){
             steps{
-                sh 'docker run -d -p 8000:8000 ravinaBackend'
+                sh 'docker run -d -p 8000:8000 ravinabackend'
             }
         }
     }
