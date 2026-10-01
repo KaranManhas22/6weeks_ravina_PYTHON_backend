@@ -4,6 +4,7 @@ pipeline{
         stage('Clone'){
             steps{
                 git url: 'https://github.com/KaranManhas22/6weeks_ravina_PYTHON_backend.git', branch: 'main'
+            }
         }
         stage('docker build'){
             steps{
